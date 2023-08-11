@@ -92,6 +92,7 @@ const Sty = StyleSheet.create({
     width: "60%",
     backgroundColor: "#eee",
     marginBottom: "3%"
+    
   },
   Sc: {
     justifyContent: "center",
