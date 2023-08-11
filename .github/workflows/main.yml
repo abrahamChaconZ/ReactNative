@@ -18,7 +18,7 @@ jobs:
         run: npm install
 
       - name: Build the app
-        run: npx react-native build
+        run: npx react-native bundle
 
       - name: Run Jest tests
         run: npm test
