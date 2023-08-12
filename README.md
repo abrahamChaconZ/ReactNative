@@ -1,3 +1,14 @@
+La aplicación se instaló en android API 31 y 33.
+En la pantalla principal se debe ingresar un correo y una contraseña de 6 digitos, si no es un correo se mandará una pantalla de error al usuario.
+Si los campos de textInput estan vacios el botón  no será habilitado.
+Si la contraseña es muy corta se enviará el error a un alert para el usuario.
+Si el correo es correcto y hay una contraseña de 6 caracteres el backend nos envia un token y se imprime en consola. 
+firebase se importó con npm sus dependencias.
+Las github actions ejecutan las funciones de jest que están en __test__  . Se instalan los node-modules.
+La asyncronia la use con then pero tambien se puede usar async await.
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
